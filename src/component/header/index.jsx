@@ -13,8 +13,8 @@ export const MyHeader=()=>{
 	const [openMenu,setOpenMenu]=useState(false)
 	const arr = [
 		{ name: 'Գլխավոր', path: '/', active: loc.pathname === '/' ? true : false },
-		{ name: 'Մեր մասին', path: '/contact', active: loc.pathname === '/contact' ? true : false  },
-		{ name: 'About', path: '/about', active: loc.pathname === '/about' ? true : false  },
+		// { name: 'Կապ', path: '/contact', active: loc.pathname === '/contact' ? true : false  },
+		{ name: 'Մեր մասին', path: '/about', active: loc.pathname === '/about' ? true : false  },
 	]
 	const [items, setItems] = useState(arr)
 	useEffect(() => {

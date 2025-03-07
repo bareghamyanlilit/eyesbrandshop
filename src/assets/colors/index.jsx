@@ -3,5 +3,5 @@ export const globalColor = {
 	txtColor: '#151e2e',
 	headerColor: '#f6eade',
 	black: '#000',
-	pink: '#ffceda',
+	pink: '#ffffff',
 }

@@ -6,11 +6,10 @@ import { useState } from 'react'
 export const ProductPage=()=>{
 	const location = useLocation()
     const nav = useNavigate()
-	console.log(6542);
 	const [index, setIndex] = useState('main')
 	// console.log(location?.state?.firmaImg)
 	const loc = location?.state
-	console.log(loc);
+	console.log(nav());
 	const prev=()=>{
 		nav('/')
 	}

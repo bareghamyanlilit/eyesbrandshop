@@ -67,6 +67,7 @@ export const MainDiv = styled.div`
 			background: black;
 			bottom: -60px;
 		}
+
 		&::before {
 			content: '>';
 			position: absolute;
@@ -75,7 +76,24 @@ export const MainDiv = styled.div`
 			bottom: -120px;
 			font-size: 36px;
 		}
-		video,img {
+
+		@media (max-width: 480px) {
+			&::after {
+				content: 'EYES BRAND';
+				position: absolute;
+				font-size: 18vw;
+				text-align: center;
+				width: 100%;
+				height: 100px;
+				z-index: 1;
+				left: 0%;
+				font-family: fantasy;
+				background: ${globalColor.pink};
+				bottom: -60px;
+			}
+		}
+		video,
+		img {
 			width: 100%;
 			height: 100%;
 			border-radius: 200px;
@@ -107,7 +125,8 @@ export const MainDiv = styled.div`
 				bottom: -60px;
 				font-size: 24px;
 			}
-			video,img {
+			video,
+			img {
 				border-radius: 0;
 			}
 		}

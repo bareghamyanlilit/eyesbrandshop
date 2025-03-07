@@ -114,8 +114,9 @@ export const Product = styled.div`
 		transition: 1s;
 		p {
 			font-family: cursive;
-			color: ${globalColor.pink};
-			text-shadow: 0px 2px 2px #000;
+			font-weight: bold;
+			color: ${globalColor.black};
+			text-shadow: 1px 1px 5px #ffffff;
 			padding: 10px 0;
 			font-size: 20px;
 		}
@@ -161,7 +162,7 @@ export const Product = styled.div`
 
 		.txt {
 			padding: 10px 5px;
-			bottom: -30px;
+			bottom: -32px;
 			p {
 				font-size: 14px;
 				padding: 5px 0;
@@ -171,7 +172,7 @@ export const Product = styled.div`
 			}
 		}
 		img {
-			height: 215px;
+			height: 220px;
 		}
 	}
 `
