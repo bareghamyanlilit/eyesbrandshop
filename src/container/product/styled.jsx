@@ -34,8 +34,8 @@ export const Product = styled.div`
 			h2 {
 				width: max-content;
 				font-size: 16px;
-				color: ${globalColor.pink};
-				text-shadow: 1px 1px 1px #283958;
+				color: ${globalColor.txtColor};
+				text-shadow: 1px 1px 1px #fff;
 			}
 		}
 		.firma {

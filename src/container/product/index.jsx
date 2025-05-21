@@ -9,17 +9,14 @@ export const ProductPage=()=>{
 	const [index, setIndex] = useState('main')
 	// console.log(location?.state?.firmaImg)
 	const loc = location?.state
-	console.log(nav());
-	const prev=()=>{
-		nav('/')
-	}
+
 	
 	// console.log(location?.state);
 	return (
 		<>
 			<MainDiv>
 				<Product>
-					<IoChevronBackCircle className='prev' onClick={prev} />
+					{/* <IoChevronBackCircle className='prev' onClick={()=>nav('/')} /> */}
 
 					<Img src={index == 'main' ? loc?.src : loc?.info?.imgArr[index]} />
 					<div className='info'>

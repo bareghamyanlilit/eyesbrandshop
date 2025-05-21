@@ -5,7 +5,7 @@ export const MainDiv = styled.div`
 	height: 100vh;
 	width: 100%;
 	position: fixed;
-	background: #006980;
+	background: ${globalColor.pink};
 	z-index: 2;
 	opacity: ${({ $active }) => ($active ? 1 : 0)};
 	top: ${({ $active }) => ($active ? 0 : '-100vh')};
@@ -21,5 +21,6 @@ export const MainDiv = styled.div`
 	a {
 		color: ${globalColor.txtColor};
 		font-size: 24px;
+		text-decoration: none;
 	}
 `

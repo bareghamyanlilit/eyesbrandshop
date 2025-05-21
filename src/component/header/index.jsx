@@ -1,4 +1,4 @@
-import { Header, HeaderLogo, IconDiv, LeftHeader, MenuItems, MenueLink, RightHeader, ShopName } from './styled'
+import { Header, HeaderLogo, LeftHeader, MenuItems, MenueLink, RightHeader, ShopName } from './styled'
 import logo from '../../assets/img/logo.png'
 // import { useTranslation } from 'react-i18next'
 import { useEffect, useState } from 'react'
@@ -44,17 +44,17 @@ export const MyHeader=()=>{
 									</MenueLink>
 								)
 						)}
-						<IconDiv onClick={() => setOpenMenu(e => !e)}>
+						{/* <IconDiv onClick={() => setOpenMenu(e => !e)}>
 							<IoMenuSharp />
-						</IconDiv>
+						</IconDiv> */}
 					</MenuItems>
 				</RightHeader>
 			</Header>
-			<HeaderResponsive
+			{/* <HeaderResponsive
 				$active={openMenu}
 				items={items}
 				setOpenMenu={setOpenMenu}
-			/>
+			/> */}
 		</>
 	)
 }

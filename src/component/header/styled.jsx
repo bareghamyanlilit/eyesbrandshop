@@ -13,7 +13,7 @@ export const Header = styled.header`
 	display: flex;
 	justify-content: space-between;
 	@media (max-width: 480px) {
-		padding: 0 20px;
+		padding: 0 10px;
 		height: 60px;
 	}
 `
@@ -31,14 +31,14 @@ export const HeaderLogo = styled.img`
 	height: 50px;
 	object-fit: contain;
 	@media (max-width: 480px) {
-		width: 40px;
-		height: 40px;
+		width: 30px;
+		height: 30px;
 	}
 `
 export const ShopName = styled.h1`
 	color: ${globalColor.txtColor};
 	@media (max-width: 480px) {
-		font-size: 18px;
+		font-size: 16px;
 	}
 `
 export const RightHeader = styled.div`
@@ -69,27 +69,28 @@ export const MenueLink = styled(Link)`
 	&:hover {
 		background-color: ${globalColor.pink};
 	}
-	@media (max-width: 700px) {
-		display: none;
-	}
-`
-export const IconDiv = styled(Link)`
-	color: ${globalColor.txtColor};
-	text-decoration: none;
-	height: 60px;
-	width: 100px;
-	font-size: 28px;
-	display: none;
-	justify-content: center;
-	align-items: center;
-	@media (max-width: 700px) {
-		display: flex;
-	}
 	@media (max-width: 480px) {
-		width: 50px;
-		font-size: 24px;
+		font-size: 14px;
+		padding: 0 5px;
 	}
 `
+// export const IconDiv = styled(Link)`
+// 	color: ${globalColor.txtColor};
+// 	text-decoration: none;
+// 	height: 60px;
+// 	width: 100px;
+// 	font-size: 28px;
+// 	display: none;
+// 	justify-content: center;
+// 	align-items: center;
+// 	@media (max-width: 700px) {
+// 		display: flex;
+// 	}
+// 	@media (max-width: 480px) {
+// 		width: 50px;
+// 		font-size: 24px;
+// 	}
+// `
 export const Translate = styled.div`
 
 `
