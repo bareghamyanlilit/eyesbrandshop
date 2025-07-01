@@ -1,265 +1,169 @@
 import logo from '../assets/img/logo.png'
-import img1 from '../assets/img/products/product1.jpg'
-import img2 from '../assets/img/products/product2.jpg'
-import img3 from '../assets/img/products/product3.jpg'
-import img4 from '../assets/img/products/product4.jpg'
-import img5 from '../assets/img/products/product5.jpg'
-import img6 from '../assets/img/products/product6.jpg'
-import img7 from '../assets/img/products/product7.jpg'
-import img8 from '../assets/img/products/product8.jpg'
-import img9 from '../assets/img/products/product9.jpg'
-import img10 from '../assets/img/products/product10.jpg'
-import img11 from '../assets/img/products/product11.jpg'
-import img12 from '../assets/img/products/product12.jpg'
-import img13 from '../assets/img/products/product13.jpg'
-import img14 from '../assets/img/products/product14.jpg'
-import img15 from '../assets/img/products/product15.jpg'
-import img16 from '../assets/img/products/product16.jpg'
-import img17 from '../assets/img/products/product17.jpg'
-import img18 from '../assets/img/products/product18.jpg'
-import img19 from '../assets/img/products/product19.jpg'
-import img20 from '../assets/img/products/product20.jpg'
-import img21 from '../assets/img/products/product21.jpg'
-import img22 from '../assets/img/products/product22.jpg'
-import img23 from '../assets/img/products/product23.jpg'
-import img24 from '../assets/img/products/product24.jpg'
-import img25 from '../assets/img/products/product25.jpg'
-import img26 from '../assets/img/products/product26.jpg'
-import img27 from '../assets/img/products/product27.jpg'
-console.log(logo)
+import img1 from '../assets/img/products/1.jpg'
+import img1_1 from '../assets/img/products/1.1.jpg'
+import img2 from '../assets/img/products/2.jpg'
+import img2_1 from '../assets/img/products/2.1.jpg'
+import img2_2 from '../assets/img/products/2.2.jpg'
+import img3 from '../assets/img/products/3.jpg'
+import img3_1 from '../assets/img/products/3.1.jpg'
+import img4 from '../assets/img/products/4.jpg'
+import img4_1 from '../assets/img/products/4.1.jpg'
+import img4_2 from '../assets/img/products/4.2.jpg'
+import img5 from '../assets/img/products/5.jpg'
+import img5_1 from '../assets/img/products/5.1.jpg'
+import img6 from '../assets/img/products/6.jpg'
+import img6_1 from '../assets/img/products/6.1.jpg'
+import img7 from '../assets/img/products/7.jpg'
+import img7_1 from '../assets/img/products/7.1.jpg'
+import img7_2 from '../assets/img/products/7.2.jpg'
+import img8 from '../assets/img/products/8.jpg'
+import img8_1 from '../assets/img/products/8.1.jpg'
+import img8_2 from '../assets/img/products/8.2.jpg'
+import img9 from '../assets/img/products/9.jpg'
+import img9_1 from '../assets/img/products/9.1.jpg'
+import img10 from '../assets/img/products/10.jpg'
+import img10_1 from '../assets/img/products/10.1.jpg'
+import img10_2 from '../assets/img/products/10.2.jpg'
+
 export const ProductsArr = [
 	{
 		id: 1,
 		firmaImg: logo,
 		firma: 'Eyes',
-		name: 'Քո ոճը քո ձեռքում է․․․',
+		name: 'Սև Հուդի “Live With Fire” Տպագրությամբ․',
 		src: img1,
-		price: 10000,
+		price: 14900,
 		info: {
-			imgArr: [img1, img8],
-			sizeArr: ['M', 'L', 'XL', 'XXL', 'XXXL'],
-			gender: 'աղջկա',
+			imgArr: [img1,img1_1],
+			sizeArr: ['M', 'L', 'XL', 'XXL','Oversized'],
+			gender: 'տղայի',
 		},
+		txt: 'Արտահայտիր քո ոճը ու եռանդը այս յուրահատուկ հուդիով։Հուդիի հետևի մասում կա վառ երկնագույն տպագրություն՝ “LIVE WITH FIRE” գրությամբ և կրակի շեշտադրումներով, ինչը տալիս է համարձակ և էներգետիկ տեսք։ Տպված է նաև “Vamtac Club” բրենդի լոգոն։Օվերսայզ (oversized), իդեալական թե աղջիկների, թե տղաների համար💙',
 	},
 	{
 		id: 2,
 		firmaImg: logo,
 		firma: 'Eyes',
-		name: 'Քոնը քո ձեռքում է․․․',
+		name: 'Life with fire🐉',
 		src: img2,
-		price: 15000,
+		price: 14900,
 		info: {
-			imgArr: [img2],
-			sizeArr: ['M', 'L', 'XL', 'XXL', 'XXXL'],
-			gender: 'տղայի',
-		},
-	},
-	{
-		id: 14,
-		firmaImg: logo,
-		firma: 'Eyes',
-		name: 'Քո ոճը քո ձեռքում է․․․',
-		src: img20,
-		price: 18000,
-		info: {
-			imgArr: [img20],
-			sizeArr: ['M', 'L', 'XL', 'XXL', 'XXXL'],
-			gender: 'տղայի',
-		},
-	},
-	{
-		id: 15,
-		firmaImg: logo,
-		firma: 'Eyes',
-		name: 'Քո ոճը քո ձեռքում է․․․',
-		src: img21,
-		price: 13000,
-		info: {
-			imgArr: [img21, img22],
-			sizeArr: ['M', 'L', 'XL', 'XXL', 'XXXL'],
-			gender: 'երեխայի',
-		},
-	},
-	{
-		id: 16,
-		firmaImg: logo,
-		firma: 'Eyes',
-		name: 'Քո ոճը քո ձեռքում է․․․',
-		src: img23,
-		price: 10000,
-		info: {
-			imgArr: [img23],
-			sizeArr: ['M', 'L', 'XL', 'XXL', 'XXXL'],
+			imgArr: [img2,img2_1,img2_2],
+			sizeArr: ['M', 'L', 'XL', 'XXL','Oversized'],
 			gender: 'աղջկա',
 		},
-	},
-	{
-		id: 17,
-		firmaImg: logo,
-		firma: 'Eyes',
-		name: 'Քո ոճը քո ձեռքում է․․․',
-		src: img24,
-		price: 11000,
-		info: {
-			imgArr: [img24, img25],
-			sizeArr: ['M', 'L', 'XL', 'XXL', 'XXXL'],
-			gender: 'երեխայի',
-		},
-	},
-	{
-		id: 18,
-		firmaImg: logo,
-		firma: 'Eyes',
-		name: 'Քո ոճը քո ձեռքում է․․․',
-		src: img27,
-		price: 12000,
-		info: {
-			imgArr: [img27],
-			sizeArr: ['M', 'L', 'XL', 'XXL', 'XXXL'],
-			gender: 'տղայի',
-		},
+		txt: 'Արևելյան վիշապի ուժն ու խորհրդավորությունը կենդանանում են այս բացառիկ դիզայնի միջոցով։Շապիկը պատրաստված է բարձրորակ բամբակից՝ ապահովելով հարմարավետություն և դիմացկունություն ամեն օր։⚡️Խորը իմաստ ունեցող դիզայն⚡️Ոգեշնչված է ասիական մշակույթից⚡️Ձեռքի աշխատանք',
 	},
 	{
 		id: 3,
 		firmaImg: logo,
 		firma: 'Eyes',
-		name: 'Քո ոճը քո ձեռքում է․․․',
+		name: '🖤 Eyes “Black Statement” շապիկ',
 		src: img3,
-		price: 11000,
+		price: 14900,
 		info: {
-			imgArr: [img3, img13],
-			sizeArr: ['M', 'L', 'XL', 'XXL', 'XXXL'],
+			imgArr: [img3,img3_1],
+			sizeArr: ['M', 'L', 'XL', 'XXL','Oversized'],
 			gender: 'աղջկա',
 		},
+		txt: 'Անհատական պատվերներից, որի միջոցով  արտահայտում են մտքերը🤍',
 	},
 	{
 		id: 4,
 		firmaImg: logo,
 		firma: 'Eyes',
-		name: 'Քո ոճը քո ձեռքում է․․․',
+		name: '🖤 Eyes “Black Statement” շապիկ',
 		src: img4,
-		price: 9900,
+		price: 14900,
 		info: {
-			imgArr: [img4],
-			sizeArr: ['M', 'L', 'XL', 'XXL', 'XXXL'],
-			gender: 'տղայի',
+			imgArr: [img4, img4_1,img4_2],
+			sizeArr: ['M', 'L', 'XL', 'XXL','Oversized'],
+			gender: 'աղջկա',
 		},
+		txt: 'Այս շապիկը ստեղծված է նրանց համար, ովքեր գնահատում են մինիմալիստական ոճը, բայց ուզում են իրենց մեջ պահել խոսք։Գրվածքը շապիկի վրա ոչ թե զարդ է, այլ ուղերձ։ Դա միտք է, որ կրում ես առանց գոռալու։Թեթեւ, հարմարավետ ու համադրելի ամեն ինչի հետ՝ ջինսից մինչեւ բոմբեր։',
 	},
 	{
 		id: 5,
 		firmaImg: logo,
 		firma: 'Eyes',
-		name: 'Քո ոճը քո ձեռքում է․․․',
+		name: '🖤 Eyes “Black Statement” շապիկ․',
 		src: img5,
-		price: 13900,
+		price: 14900,
 		info: {
-			imgArr: [img5, img6],
-			sizeArr: ['M', 'L', 'XL', 'XXL', 'XXXL'],
+			imgArr: [img5,img5_1],
+			sizeArr: ['M', 'L', 'XL', 'XXL','Oversized'],
 			gender: 'աղջկա',
 		},
+		txt: 'Սա սովորական հուդի չէ։Սա santizi զգացողություն է՝ փափուկ, բայց ընդգծված։ Այս հուդիով լինում ես ուշադրության կենտրոնում՝ առանց ձայն բարձրացնելու։',
 	},
 	{
 		id: 6,
 		firmaImg: logo,
 		firma: 'Eyes',
-		name: 'Քո ոճը քո ձեռքում է․․․',
-		src: img7,
-		price: 10000,
+		name: '🤍 Eyes “We See Each Other” զույգ շապիկներ',
+		src: img6,
+		price: 14900,
 		info: {
-			imgArr: [img7],
-			sizeArr: ['M', 'L', 'XL', 'XXL', 'XXXL'],
-			gender: 'երեխայի',
+			imgArr: [img6, img6_1],
+			sizeArr: ['M', 'L', 'XL', 'XXL','Oversized'],
+			gender: 'տղայի',
 		},
+		txt: 'Չկա ավելի ուժեղ զգացողություն, քան երբ ձեր ոճը խոսում է ձեր կապի մասին։Eyes զույգ շապիկները՝ միաժամանակ նուրբ և համարձակ, ստեղծված են նրանց համար, ովքեր ոչ միայն միասին են, այլ նաև համընկնում են էներգիայով։Մեկս մյուսի հայացքի շարունակությունն եք։ Ու դա երևում է նույնիսկ շապիկի վրայից։',
 	},
 	{
 		id: 7,
 		firmaImg: logo,
 		firma: 'Eyes',
-		name: 'Քո ոճը քո ձեռքում է․․․',
-		src: img9,
-		price: 14000,
+		name: '🖤 Eyes “Black Statement” շապիկ',
+		src: img7,
+		price: 14900,
 		info: {
-			imgArr: [img9],
-			sizeArr: ['M', 'L', 'XL', 'XXL', 'XXXL'],
+			imgArr: [img7,img7_1,img7_2],
+			sizeArr: ['M', 'L', 'XL', 'XXL','Oversized'],
 			gender: 'տղայի',
 		},
+		txt: 'Սևը խոսում է առանց աղմուկի։Գրվածքը՝ առանց բացատրության։Սա այն շապիկն է, որը հագնում ես, երբ ուզում ես լինել հստակ, ուղղակի ու դու՝ առանց ավելորդության։Eyes սեւ շապիկը՝ մաքուր էներգիա, մինիմալիստական ուղերձով։ Այն ամենն, ինչ պետք է՝ առօրյայում, դուրս գնալիս կամ երբ ուզում ես պարզապես զգալ քեզ հավաքված ու վստահ։',
 	},
 	{
 		id: 8,
 		firmaImg: logo,
 		firma: 'Eyes',
-		name: 'Քո ոճը քո ձեռքում է․․․',
-		src: img11,
-		price: 12000,
+		name: '🖤 Eyes “Black Statement” շապիկների շարքից',
+		src: img8,
+		price: 14900,
 		info: {
-			imgArr: [img10, img11],
-			sizeArr: ['M', 'L', 'XL', 'XXL', 'XXXL'],
-			gender: 'երեխայի',
+			imgArr: [img8, img8_1,img8_2],
+			sizeArr: ['M', 'L', 'XL', 'XXL','Oversized'],
+			gender: 'աղջկա',
 		},
+		txt: 'Սևը խոսում է առանց աղմուկի։Գրվածքը՝ առանց բացատրության։Սա այն շապիկն է, որը հագնում ես, երբ ուզում ես լինել հստակ, ուղղակի ու դու՝ առանց ավելորդության։Eyes սեւ շապիկը՝ մաքուր էներգիա, մինիմալիստական ուղերձով։ Այն ամենն, ինչ պետք է՝ առօրյայում, դուրս գնալիս կամ երբ ուզում ես պարզապես զգալ քեզ հավաքված ու վստահ։',
 	},
 	{
 		id: 9,
 		firmaImg: logo,
 		firma: 'Eyes',
-		name: 'Քո ոճը քո ձեռքում է․․․',
-		src: img12,
-		price: 15000,
+		name: 'Silent Meaning”🤎',
+		src: img9,
+		price: 14900,
 		info: {
-			imgArr: [img12, img26],
-			sizeArr: ['M', 'L', 'XL', 'XXL', 'XXXL'],
+			imgArr: [img9,img9_1],
+			sizeArr: ['M', 'L', 'XL', 'XXL','Oversized'],
 			gender: 'տղայի',
 		},
+		txt: 'Ընտրիր EYES-ի հուդիները որպես քո անհատականության արտահայտման միջոց🤎',
 	},
 	{
 		id: 10,
 		firmaImg: logo,
 		firma: 'Eyes',
-		name: 'Քո ոճը քո ձեռքում է․․․',
-		src: img14,
-		price: 13000,
+		name: '🍫👶 Eyes Baby “Nutella Mood” բոդի․',
+		src: img10,
+		price: 14900,
 		info: {
-			imgArr: [img14, img15],
-			sizeArr: ['M', 'L', 'XL', 'XXL', 'XXXL'],
-			gender: 'աղջկա',
-		},
-	},
-	{
-		id: 11,
-		firmaImg: logo,
-		firma: 'Eyes',
-		name: 'Քո ոճը քո ձեռքում է․․․',
-		src: img18,
-		price: 12000,
-		info: {
-			imgArr: [img16, img18],
-			sizeArr: ['M', 'L', 'XL', 'XXL', 'XXXL'],
-			gender: 'տղայի',
-		},
-	},
-	{
-		id: 12,
-		firmaImg: logo,
-		firma: 'Eyes',
-		name: 'Քո ոճը քո ձեռքում է․․․',
-		src: img17,
-		price: 11000,
-		info: {
-			imgArr: [img17],
-			sizeArr: ['M', 'L', 'XL', 'XXL', 'XXXL'],
+			imgArr: [img10, img10_1,img10_2],
+			sizeArr: ['M', 'L', 'XL', 'XXL','Oversized'],
 			gender: 'երեխայի',
 		},
-	},
-	{
-		id: 13,
-		firmaImg: logo,
-		firma: 'Eyes',
-		name: 'Քո ոճը քո ձեռքում է․․․',
-		src: img19,
-		price: 16000,
-		info: {
-			imgArr: [img19],
-			sizeArr: ['M', 'L', 'XL', 'XXL', 'XXXL'],
-			gender: 'աղջկա',
-		},
-	},
+		txt: 'Քաղցրությունը՝ արտահայտված մեկ հայացքով։Այս բոդին միայն հագուստ չէ — դա տրամադրություն է։',
+	}
 ]

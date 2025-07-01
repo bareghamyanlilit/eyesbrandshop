@@ -11,6 +11,10 @@ export const FooterContainer = styled.footer`
 		align-items: center;
 		text-align: center;
 	}
+	.p{
+		text-decoration: none;
+	color: ${globalColor.txtColor};
+	}
 `
 export const FooterSections = styled.div`
 	display: flex;
@@ -63,7 +67,10 @@ export const FooterLink = styled.a`
 
 export const SocialIcons = styled.div`
 	display: flex;
+	flex-wrap: wrap;
 	gap: 10px;
+	/* width: 50px;
+	height: 50px; */
 
 	@media (max-width: 480px) {
 		justify-content: center;
@@ -72,7 +79,7 @@ export const SocialIcons = styled.div`
 
 export const SocialIcon = styled.a`
 	color: ${globalColor.txtColor};
-	font-size: 1.5rem;
+	font-size: 40px;//mecacnel chapy sa cgi ashxtm
 	transition: color 0.3s;
 
 	&:hover {

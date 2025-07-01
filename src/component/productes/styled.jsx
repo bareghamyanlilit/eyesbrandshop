@@ -113,7 +113,7 @@ export const Product = styled.div`
 		padding: 40px 15px;
 		transition: 1s;
 		p {
-			font-family: cursive;
+			font-family: bold;
 			font-weight: bold;
 			color: ${globalColor.black};
 			text-shadow: 1px 1px 5px #ffffff;

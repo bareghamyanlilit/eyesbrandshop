@@ -44,8 +44,8 @@ export const MainDiv = styled.div`
 			font-size: 8rem;
 		}
 
-		@media (max-width: 568px) {
-			font-size: 6rem;
+		@media (max-width: 480px) {
+			/* font-size: 6rem; */
 			display: none;
 		}
 	}
@@ -81,15 +81,15 @@ export const MainDiv = styled.div`
 			&::after {
 				content: 'EYES BRAND';
 				position: absolute;
-				font-size: 18vw;
+				font-size: 13vw;
 				text-align: center;
 				width: 100%;
-				height: 100px;
+				height: 80px;
 				z-index: 1;
 				left: 0%;
-				font-family: fantasy;
+				font-family: bold;
 				background: ${globalColor.pink};
-				bottom: -60px;
+				bottom: -0px;
 			}
 		}
 		video,
