@@ -156,7 +156,7 @@ export const ProductsArr = [
 		id: 10,
 		firmaImg: logo,
 		firma: 'Eyes',
-		name: '🍫👶 Eyes Baby “Nutella Mood” բոդի․',
+		name: '🍫👶 Eyes Baby “Nutella Mood” բոդի',
 		src: img10,
 		price: 14900,
 		info: {

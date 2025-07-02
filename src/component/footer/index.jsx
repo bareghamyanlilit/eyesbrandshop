@@ -2,8 +2,6 @@ import React from 'react'
 import {
 	FooterContainer,
 	FooterSection,
-	FooterLinks,
-	FooterLink,
 	FooterTitle,
 	SocialIcons,
 	SocialIcon,
@@ -11,7 +9,7 @@ import {
 	Copyright,
 	FooterSections,
 } from './styled'
-import { FaFacebookF, FaInstagram, FaTwitter, FaEnvelope } from 'react-icons/fa'
+import { FaInstagram, FaEnvelope } from 'react-icons/fa'
 
 export const MyFooter = () => {
 	return (
@@ -62,3 +60,5 @@ export const MyFooter = () => {
 		</FooterContainer>
 	)
 }
+
+
