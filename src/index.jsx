@@ -13,7 +13,6 @@ export const MyProject=()=>{
 			<Routes>
 				<Route path='/' element={<HomePage />} />
 				<Route path='/about' element={<AboutPage />} />
-				<Route path='/product' element={<AboutPage />} />
 				<Route path='/product/:id' element={<ProductPage />} />
 			</Routes>
 			<MyFooter />

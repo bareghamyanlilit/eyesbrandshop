@@ -8,7 +8,6 @@ export const MyHeader=()=>{
 	const arr = [
 		{ name: 'Գլխավոր', path: '/', active: loc.pathname === '/' ? true : false },
 		{ name: 'Մեր մասին', path: '/about', active: loc.pathname === '/about' ? true : false  },
-		{ name: 'Մեր մասին', path: '/praduct', active: loc.pathname === '/about' ? true : false  },
 	]
 	const [items, setItems] = useState(arr)
 	useEffect(() => {
