@@ -40,57 +40,53 @@ export const ShopName = styled.h1`
 	@media (max-width: 480px) {
 		font-size: 16px;
 	}
-`
-export const RightHeader = styled.div`
-	display: flex;
-	align-items: center;
-	gap: 20px;
-	@media (max-width: 480px) {
-		gap: 10px;
-	}
-`
-export const MenuItems = styled.ul`
-	display: flex;
-	align-items: center;
+// `
+// export const RightHeader = styled.div`
+// 	display: flex;
+// 	align-items: center;
+// 	gap: 20px;
+// 	@media (max-width: 480px) {
+// 		gap: 10px;
+// 	}
+// `
+// export const MenuItems = styled.ul`
+// 	display: flex;
+// 	align-items: center;
 	
-`
-export const MenueLink = styled(Link)`
-	color: ${globalColor.txtColor};
-	text-decoration: none;
-	height: 60px;
-	padding: 0 15px;
-	width: max-content;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 16px;
-	background-color: ${({ $active }) =>
-		$active ? `${globalColor.pink}` : 'none'};
-	&:hover {
-		background-color: ${globalColor.pink};
-	}
-	@media (max-width: 480px) {
-		font-size: 14px;
-		padding: 0 5px;
-	}
-`
-// export const IconDiv = styled(Link)`
+// `
+// export const MenueLink = styled(Link)`
 // 	color: ${globalColor.txtColor};
 // 	text-decoration: none;
 // 	height: 60px;
-// 	width: 100px;
-// 	font-size: 28px;
-// 	display: none;
+// 	padding: 0 15px;
+// 	width: max-content;
+// 	display: flex;
 // 	justify-content: center;
 // 	align-items: center;
-// 	@media (max-width: 700px) {
-// 		display: flex;
-// 	}
+// 	font-size: 16px;
+// 	background-color: ${globalColor.pink};
 // 	@media (max-width: 480px) {
-// 		width: 50px;
-// 		font-size: 24px;
+// 		font-size: 14px;
+// 		padding: 0 5px;
 // 	}
 // `
-export const Translate = styled.div`
+// // export const IconDiv = styled(Link)`
+// // 	color: ${globalColor.txtColor};
+// // 	text-decoration: none;
+// // 	height: 60px;
+// // 	width: 100px;
+// // 	font-size: 28px;
+// // 	display: none;
+// // 	justify-content: center;
+// // 	align-items: center;
+// // 	@media (max-width: 700px) {
+// // 		display: flex;
+// // 	}
+// // 	@media (max-width: 480px) {
+// // 		width: 50px;
+// // 		font-size: 24px;
+// // 	}
+// // `
+// export const Translate = styled.div`
 
-`
+// `

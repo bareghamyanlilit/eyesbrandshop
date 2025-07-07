@@ -32,9 +32,9 @@ export const MyFooter = () => {
 							rel='noopener noreferrer'
 						>
 							
-						<a class="p" href="mailto:youremail.gmail con">
+						<p className="p" href="mailto:youremail.gmail con">
 							<FaEnvelope  style={{fontSize:'35px'}}/>
-						</a>
+						</p>
 						</SocialIcon>
 					</SocialIcons>
 				</FooterSection>
@@ -42,11 +42,11 @@ export const MyFooter = () => {
 				<FooterSection>
 					<FooterTitle>Contact</FooterTitle>
 					<ContactInfo>
-						<a class="p" href="mailto:youremail.gmail con">
+						<a className="p" href="mailto:youremail.gmail con">
 							<p>Email: eyess.brand@gmail.com</p>
 						</a>
 						
-						<a class="p" href="tel:+37412345678">
+						<a className="p" href="tel:+37412345678">
 							<p>Product: +374 98 91 41 09</p>
 						</a>
 					</ContactInfo>

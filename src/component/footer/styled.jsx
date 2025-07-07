@@ -45,25 +45,25 @@ export const FooterTitle = styled.h3`
 	}
 `
 
-export const FooterLinks = styled.ul`
-	list-style: none;
-	padding: 0;
-	margin: 0;
-`
+// export const FooterLinks = styled.ul`
+// 	list-style: none;
+// 	padding: 0;
+// 	margin: 0;
+// `
 
-export const FooterLink = styled.a`
-	display: block;
-	color: ${globalColor.txtColor};
-	text-decoration: none;
-	margin-bottom: 10px;
-	width: max-content;
-	font-size: 1rem;
-	transition: color 0.3s;
+// export const FooterLink = styled.a`
+// 	display: block;
+// 	color: ${globalColor.txtColor};
+// 	text-decoration: none;
+// 	margin-bottom: 10px;
+// 	width: max-content;
+// 	font-size: 1rem;
+// 	transition: color 0.3s;
 
-	&:hover {
-		color: #e63946;
-	}
-`
+// 	&:hover {
+// 		color: #e63946;
+// 	}
+// `
 
 export const SocialIcons = styled.div`
 	display: flex;
