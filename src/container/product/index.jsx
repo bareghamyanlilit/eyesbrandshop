@@ -11,7 +11,7 @@ export const ProductPage=()=>{
 	const loc = location?.state
 
 	
-	// console.log(location?.state);
+	console.log(location?.state);
 	return (
 		<>
 			<MainDiv>
